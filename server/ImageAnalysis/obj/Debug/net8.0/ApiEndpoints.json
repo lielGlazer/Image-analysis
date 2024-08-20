@@ -1,0 +1,33 @@
+[
+  {
+    "ContainingType": "ImageAnalysis.Controllers.UploaingImage",
+    "Method": "UploadImage",
+    "RelativePath": "upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "checksum",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ImageAnalysis.Controllers.UploaingImage",
+    "Method": "GetUploadedImages",
+    "RelativePath": "uploads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
